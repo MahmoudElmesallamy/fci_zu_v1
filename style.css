@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    height: 100px;
+    margin-right: 400px;
+    padding: 5px;
+}
+
+.nav {
+    background-color: #E4E2DD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-bar {
+    display: flex;
+    padding: 20px;
+   list-style: none;
+}
+
+li {
+    margin-left: 50px;
+    color: #004AAD;
+    font-family: "IBM Plex Sans Arabic","verdana";
+    font-size: 30px;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+
+a li:hover {
+    color: #17A80F;
+    font-size: 32px;
+}
+
+.main {
+    background-color: #112D4E;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+h1 {
+    text-align: center;
+    padding: 50px 0 30px 0;
+    color: #F9F7F7;
+    text-decoration: underline;
+}
+h2 {
+   text-align: center; 
+   margin-bottom: 30px;
+   color: #F9F7F7;
+   font-family: "IBM Plex Sans Arabic","verdana";
+
+}
+.ainstien-quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #F9F7F7; 
+    border-radius: 8px;
+    padding: 1px;
+    width: 280px;
+    
+} 
+
+.ainstien {
+    width: 280px;
+    height: 300px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+.quote {
+    text-align: center;
+    color: #F9F7F7;
+}
+
+.albert-name {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #DBE2EF;
+    margin-top: 5px;
+    padding-bottom: 5px;
+}
+
+@media (max-width: 950px) {
+    .logo {
+        height: 100px;
+        margin-right: 200px;
+    }
+
+    .nav-bar {
+        margin-right: 3px;
+    }
+
+    li {
+        margin-left: 30px;
+        font-size: 30px;
+   }
+}
+
+@media (max-width: 600px) {
+    .logo {
+        height: 50px;
+        margin-right: 0px;
+    }
+
+    .nav-bar {
+        margin-right: 5px;
+    }
+
+    li {
+        margin-left: 15px;
+        font-size: 16px;
+   }
+
+   a li:hover {
+    color: #17A80F;
+    font-size: 18px;
+   }
+}
